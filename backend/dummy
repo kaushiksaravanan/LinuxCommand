@@ -1,0 +1,5 @@
+curl -X POST "http://127.0.0.1:8000/upload/" \
+-H "Content-Type: multipart/form-data" \
+-F "file=@C:\Users\navin\Documents\pdf manipulation\platform-9-3-4-\backend\pdf\pdf24_merged.pdf" \
+-F "user_type=premium" \
+-F "user_id=12345"
